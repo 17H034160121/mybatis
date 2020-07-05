@@ -1,0 +1,7 @@
+
+
+<mapper namespace="cjlu.cct.dao.PersonDao">
+    <select id="findAll" resultType="cjlu.cct.domain.Person">
+        select * from person
+    </select>
+</mapper>
